@@ -20,7 +20,7 @@
 ## ダウンロード方法
 
 https://github.com/akiya/XFiler  
-GitHubのページの右側にある **Releases** セクションから最新版の `XFiler(version).zip`をダウンロードしてください。
+GitHubのページの右側にある **Releases** セクションから最新版の `XFiler-(version).zip`をダウンロードしてください。
 
 ## 実行方法
 1. ダウンロードしたzipファイルをエクスプローラ等で展開し、任意のディレクトリに移動させてください。
