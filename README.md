@@ -49,6 +49,9 @@ micosoft / akiya
 https://github.com/akiya  
 https://x.com/akiya193  
 
+XFilerサポート用メールアドレス: ``xfiler.68k [at] gmail.com``  
+``[at]``をアットマークに置き換えてください。  
+
 ## ライセンス
 [MIT](LICENSE.txt)  
 
