@@ -1,6 +1,9 @@
 # ![XFilerロゴ](image/logo.png) XFiler (クロスファイラー)
 ![XFilerスクショ](image/screenshot.png)
 
+# (3/9) すみません、Ver.1.0.3のアーカイブ本体をアップロードし忘れてました。
+# アップしましたので右のReleaseからダウンロードしてください。
+
 ## 概要
 
 主にキーボードで操作する、いわゆる２画面ファイラーです。
@@ -73,4 +76,5 @@ AvalonEdit (MIT) テキストビュアーに使用
 Markdig.Wpf (MIT) Markdownファイルの表示に使用  
   
 Susieプラグインや統合アーカイバプロジェクトのDLLには対応していません。  
+
 
