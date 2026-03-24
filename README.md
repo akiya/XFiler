@@ -1,9 +1,6 @@
 # ![XFilerロゴ](image/logo.png) XFiler (クロスファイラー)
 ![XFilerスクショ](image/screenshot.png)
 
-# (3/9) すみません、Ver.1.0.3のアーカイブ本体をアップロードし忘れてました。
-# アップしましたので右のReleaseからダウンロードしてください。
-
 ## 概要
 
 主にキーボードで操作する、いわゆる２画面ファイラーです。
@@ -33,13 +30,21 @@ GitHubのページの右側にある **Releases** セクションから最新版
 
 ## 操作方法
 [マニュアル](Manual.md)を参照してください。  
+[マクロガイド](Macro.md) (JavaScriptマクロの書き方)  
 
 ## 更新履歴
 
-## Ver. 1.0.3
-- コピーや削除などのファイル操作のタスクを一覧表示する機能を追加(処理の中止なども可能)
-- exeファイルでEnterを押したときの動作を(ビュアーで開く、実行する、何もしない)から選べるようにしました
-- ログ出力を変更
+### Ver. 1.1.0
+- JavaScriptによるマクロに対応
+    - `XFiler` オブジェクトを通じてファイル操作・情報取得・ダイアログ表示などが可能
+    - Node.jsを参考にしたパスを扱うユーティリティ `path` が使用できます
+    - マクロの詳細は[JavaScriptマクロ ガイド](Macro.md)を参照
+    - マクロは設定でキー操作に割り当て可能
+    - macro.sample ディレクトリにサンプルを添付
+- 外部プログラム実行 (ExternalProgram) 機能を追加
+- 引数マクロの記号を % から $ に変更
+    - 外部エディタの %F などの設定は起動時に自動的に $F へ変換されます
+- ファイルの削除をゴミ箱経由で行うオプションを追加
 
 過去の更新履歴は[こちら](History.md)を参照してください。  
 
@@ -74,7 +79,8 @@ SharpCompress (MIT) zipファイルの操作に使用
 System.Text.Encoding.CodePages (MIT) 文字コードの扱いに使用  
 AvalonEdit (MIT) テキストビュアーに使用  
 Markdig.Wpf (MIT) Markdownファイルの表示に使用  
+Jint (BSD-2-Clause) JavaScriptマクロの実行に使用  
+Acornima (BSD-3-Clause) JavaScriptのパースに使用（Jintに内包）  
   
 Susieプラグインや統合アーカイバプロジェクトのDLLには対応していません。  
-
 
