@@ -165,3 +165,9 @@ XFiler.RegisterCommand("backup_to_passive", "反対側へ.bakとしてコピー"
     XFiler.Refresh();
 });
 ```
+
+### その他のサンプル
+
+`macro.sample` ディレクトリに、開発に使用したいくつかのサンプルが収録されています。
+
+
