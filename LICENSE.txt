@@ -43,6 +43,10 @@ License: MIT (https://github.com/adamhathcock/sharpcompress)
 Copyright (c) .NET Foundation and Contributors
 License: MIT (https://github.com/dotnet/runtime)
 
+- Pfim
+Copyright (c) Nick Babcock
+License: MIT (https://github.com/nickbabcock/Pfim)
+
 - Jint
 Copyright (c) 2013, Sebastien Ros
 License: BSD 2-Clause (https://github.com/sebastienros/jint)
