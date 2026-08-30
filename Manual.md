@@ -105,7 +105,7 @@
 | **Shift + N** | 前を検索 (Find Previous) |
 | **W** | 行の折り返し (Word Wrap) の切り替え (ON/OFF) |
 | **B** | バイナリ・16進数ダンプ表示 (Binary View) の切り替え |
-| **C** | 文字コード切り替え (Shift-JIS / UTF-8) |
+| **C** | 文字コード切り替え (Shift-JIS / UTF-8 / (UTF-16LE,BE) / (EUC-JP)) |
 | **E** | 外部エディタで開く |
 | **V** | Markdownビュアーに切り替える (Markdownファイルのみ) |
 | **Esc / Enter** | ビュアーを閉じる |
